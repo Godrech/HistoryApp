@@ -4,57 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/istockphoto_503050716_612x612"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/resultTextView"
-        android:layout_width="188dp"
-        android:layout_height="144dp"
-        android:text="TextView"
+        android:layout_width="528dp"
+        android:layout_height="523dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.389"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <Button
         android:id="@+id/clearButton"
-        android:layout_width="203dp"
-        android:layout_height="156dp"
+        android:layout_width="146dp"
+        android:layout_height="89dp"
+        android:backgroundTint="#7A3A2C17"
         android:text="Clear"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintHorizontal_bias="0.253"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.913" />
+        app:layout_constraintVertical_bias="0.953" />
 
     <Button
         android:id="@+id/searchButton"
-        android:layout_width="161dp"
-        android:layout_height="158dp"
+        android:layout_width="137dp"
+        android:layout_height="92dp"
+        android:backgroundTint="#7A3A2C17"
         android:text="Search"
+        android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintHorizontal_bias="0.781"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
+        app:layout_constraintVertical_bias="0.959" />
 
     <EditText
         android:id="@+id/ageInput"
-        android:layout_width="262dp"
-        android:layout_height="105dp"
+        android:layout_width="336dp"
+        android:layout_height="48dp"
         android:ems="10"
         android:hint="Enter Age"
         android:inputType="text"
         android:text=""
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.348"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.301" />
+        app:layout_constraintVertical_bias="0.229" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="206dp"
+        android:layout_height="112dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/pngegg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
